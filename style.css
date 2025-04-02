@@ -1,0 +1,113 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background: linear-gradient(45deg, #1e1e1e, #2a2a72);
+    background-size: 400% 400%;
+    animation: bgAnimation 8s infinite alternate;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+}
+
+@keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+h1 {
+    text-shadow: 4px 4px 5px rgba(0, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+canvas {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid #00ffff;
+    box-shadow: 0px 0px 15px #00ffff;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+}
+
+button {
+    background: #00ffff;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #00ffff;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff0099;
+    box-shadow: 0px 0px 15px #ff0099;
+}
+=======
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background: linear-gradient(45deg, #1e1e1e, #2a2a72);
+    background-size: 400% 400%;
+    animation: bgAnimation 8s infinite alternate;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    text-align: center;
+}
+
+@keyframes bgAnimation {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+h1 {
+    text-shadow: 4px 4px 5px rgba(0, 255, 255, 0.8);
+    font-size: 24px;
+}
+
+canvas {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 5px solid #00ffff;
+    box-shadow: 0px 0px 15px #00ffff;
+}
+
+p {
+    font-size: 14px;
+    margin: 10px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
+}
+
+button {
+    background: #00ffff;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #00ffff;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff0099;
+    box-shadow: 0px 0px 15px #ff0099;
+}
+>>>>>>> bbfe5e4 (Prima versione del gioco)
